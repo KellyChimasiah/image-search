@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelly</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<h1 onmouseover="this.innerHTML='Kelly Welcomes You'">Indeche Kelly</h1>
+<button onclick="document.getElementById('time').innerHTML=Date()">Time</button>
+<p id="time"></p>
+<h2>Image search Website</h2>
+<body>
+    <form action="" method="post">
+        <label for="label" id="label">Images</label>
+        <input type="text" id="search" name="search" placeholder="Image search">
+        <input type="submit" value="submit" id="submit">
+    </form>
+    <div class="search-result">
+        <div class="result">
+            <img src="https://images.unsplash.com/photo-1694676518566-874b80d2d160?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMjN8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="Mountains">
+            <a href="https://unsplash.com/photos/a-black-car-is-parked-in-a-parking-lot-5c1byCK83C8" target="_blank">Car</a>
+        </div>
+        <div class="result">
+            <img src="https://images.unsplash.com/photo-1683009427037-c5afc2b8134d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Mountains">
+            <a href="https://unsplash.com/photos/CkOVB0H97kc" target="_blank">Mountains</a>
+        </div>
+        <div class="result">
+            <img src="https://images.unsplash.com/photo-1683009427037-c5afc2b8134d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Mountains">
+            <a href="https://unsplash.com/photos/CkOVB0H97kc" target="_blank">Mountains</a>
+        </div>
+    </div>
+    <button id="Show-more">Show more</button>
+    <script src="script.js"></script>
+</body>
+</html>
